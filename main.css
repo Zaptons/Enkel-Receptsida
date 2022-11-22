@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(255, 210, 240);
+  }
+
+
+  header {
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header1 {
+    padding: 10px;
+    height: 200px;
+    width: 500px;
+    position: relative;
+    margin-left: 1px;
+    background-color: rgb(209, 176, 198);
+  }
+  .header2{
+    padding: 10px;
+    height: 200px;
+    width: 500px;
+    position: relative;
+    margin-left: 1px;
+    background-color: rgb(209, 176, 198);
+  }
+  h1 {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-style: oblique;
+    font-size: 250%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .nav-style {
+    padding-top: 20px;
+    height: 70px;
+    width: 1000px;
+    background-color:rgb(222, 89, 255);
+    font-size: medium;
+    font-style: oblique;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.article1 {
+    margin: 20px;
+    padding: 10px;
+    background-color:rgb(209, 176, 198);
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 1100px;
+    width: 900px;
+  }
+
+  article {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(209, 176, 198);
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 1200px;
+    width: 900px;
+  }
+  img {
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 470px;
+    width: 800px;
+    border-radius: 15px;
+    border: 3px solid white;
+  }
+  ul, ol {
+    margin-left: 20px;
+    font-size: large;
+    font-style:italic;
+  }
+
+
+  .merfakta{
+    height: 150px;
+    width: 160px;
+    background-color:rgb(255, 210, 240);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: relative;
+    top: 15px;
+    text-align: start;
+    font-style: oblique;
+    font-size: large;
+  }
+footer{
+  height: 70px;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  background-color:rgb(209, 176, 198);
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  align-items: end;
+}
+footer p:first-of-type{
+  position: relative;
+  top: 10px;
+  left: 1380px;
+}
